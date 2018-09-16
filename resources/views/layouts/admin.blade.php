@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }} - Sua Rádio Na Net</title>
+    <title>{{ config('app.name', 'Laravel') }} - </title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -43,8 +43,6 @@
                 <!-- BEGIN LOGO -->
                 <div class="page-logo">
                     <a href="{{ url('/') }}">
-                        <img src="{{ asset('img/logo/bemobile-medium.png') }}" alt="Be Mobile" class="logo-default"/>
-
                     </a>
                     {{--<img src="../assets/layouts/layout/img/logo.png" alt="logo" class="logo-default" /> </a>--}}
                     <div class="menu-toggler sidebar-toggler">
@@ -118,8 +116,8 @@
         </div>
 
         <div class="page-footer">
-            <div class="page-footer-inner"> &copy; Sua Rádio Na Net |
-                <a target="_blank" href="http://bemobile.cc">Be Mobile</a>
+            <div class="page-footer-inner"> &copy; |
+               
             </div>
             <div class="scroll-to-top">
                 <i class="icon-arrow-up"></i>

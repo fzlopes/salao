@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }} - Sua Rádio Na Net</title>
+    <title>{{ config('app.name', 'Laravel') }} - </title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -38,7 +38,7 @@
     <!-- BEGIN LOGO -->
     <div class="logo">
         <a href="{{ url('/') }}">
-            <img src="{{ asset('img/logo/bemobile.png') }}" alt="Be Mobile" />
+            
         </a>
     </div>
     <!-- END LOGO -->
@@ -49,7 +49,7 @@
 
     </div>
 
-    <div class="copyright"> © bemobile.tech </div>
+    <div class="copyright">  </div>
 
     <!--[if lt IE 9]>
     <script src="{{ asset('vendor/global/plugins/respond.min.js') }}"></script>

@@ -25,8 +25,8 @@ class PasswordFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'current' => 'required|min:3',
-            'password' => 'required|min:3|confirmed',
+            'current'               => 'required|min:3',
+            'password'              => 'required|min:3|confirmed',
             'password_confirmation' => 'required|min:3'
         ];
     }
@@ -40,7 +40,7 @@ class PasswordFormRequest extends FormRequest
     {
         return [
             'required' => 'O campo :attribute é requerido.',
-            'min' => 'Sua nova senha deve ter no mínimo 3 caracteres.'
+            'min'      => 'Sua nova senha deve ter no mínimo 3 caracteres.'
         ];
     }
 }

@@ -31,9 +31,9 @@ class UserFormRequest extends FormRequest
         }
 
         return [
-            'name' => 'required|min:3',
+            'name'  => 'required|min:3',
             'email' => $email_rule,
-            'role' => 'required'
+            'role'  => 'required'
         ];
     }
 
@@ -45,9 +45,9 @@ class UserFormRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.min' => 'o nome é obrigatório e precisa ter no mínio 3 caracteres.',
-            'email.unique' => 'já existe um usuário com esse e-mail.',
-            'email.email' => 'endereço de e-mail inválido.',
+            'name.min'      => 'o nome é obrigatório e precisa ter no mínimo 3 caracteres.',
+            'email.unique'  => 'já existe um usuário com esse e-mail.',
+            'email.email'   => 'endereço de e-mail inválido.',
             'role.required' => 'é obrigatório informar a qual grupo este usuário pertence.',
         ];
     }

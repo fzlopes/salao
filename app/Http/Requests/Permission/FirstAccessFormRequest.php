@@ -25,8 +25,8 @@ class FirstAccessFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'email' => 'required|email',
-            'password' => 'required|min:3|confirmed',
+            'email'                 => 'required|email',
+            'password'              => 'required|min:3|confirmed',
             'password_confirmation' => 'required|min:3'
         ];
     }
@@ -40,7 +40,7 @@ class FirstAccessFormRequest extends FormRequest
     {
         return [
             'required' => 'O campo :attribute é requerido.',
-            'min' => 'Sua nova senha deve ter no mínimo 3 caracteres.'
+            'min'      => 'Sua nova senha deve ter no mínimo 3 caracteres.'
         ];
     }
 }
